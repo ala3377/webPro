@@ -1,0 +1,44 @@
+/* تنسيق مربع إضافة السيارة */
+.AddCar_Box {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* تنسيق عناصر النموذج */
+.AddCar_Box label,
+.AddCar_Box input[type="text"],
+.AddCar_Box input[type="number"],
+.AddCar_Box input[type="date"],
+.AddCar_Box select,
+.AddCar_Box datalist,
+.AddCar_Box button[type="submit"] {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+/* تنسيق زر الإرسال */
+.AddCar_Box button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.AddCar_Box button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* تنسيق قائمة الخيارات */
+.AddCar_Box datalist {
+    font-size: 14px;
+}
+
+/* اختياري: يمكنك إضافة تنسيقات أخرى حسب الحاجة */

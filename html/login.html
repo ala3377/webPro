@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles-user.css">
+    <title>صفحة تسجيل الدخول</title>
+    <link rel="icon " href="../image/ic.png" type="image/jpeg">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>BAZO</h1>
+            <ul>
+                <li><a href="../index.html">الصفحة الرئيسية</a></li>
+                <li><a href="../phpCode/Cars.php">صفحات السيارات</a></li>
+                <li><a href="../phpCode/Search_cars.php">صفحة البحث</a></li>
+                <li><a href="../html/contact.html">صفحة الاتصال</a></li>
+                <li><a href="../html/login.html">صفحة تسجيل الدخول</a></li>
+                <li><a href="../html/owners.html">صفحة مالكين المعرض</a></li>
+                <li><a href="../html/Add_Cars.html">إضافة سيارة</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="loginbox">
+            <hr>
+            <p class="pp"> مستخدم جديد</p>
+            <hr>
+
+            <br>
+
+            <form action="../phpCode/addLogin.php" method="post">
+
+                <div class="form-input">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><input type="text" placeholder=" إسم المستخدم " name="username" required> </td>
+                                <td><input type="tel" placeholder=" رقم الجوال " name="phone"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="email" placeholder="البريد الالكتروني" name="email"></td>
+                                <td><input type="email" placeholder=" تأكيد البريد الالكتروني" name="email2"> </td>
+                            </tr>
+                            <tr>
+                                <td><input type="password" placeholder=" كلمة السر" name="pass" required></td>
+                                <td><input type="password" placeholder=" تأكيد كلمة السر " name="pass2" required></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="im"> <button type="submit" name="save" class="hh2">اشتراك</button> </div><br>
+                    <p><a href="new_user.php"> لدي حساب بالفعل</a></p>
+                </div>
+            </form>
+
+        </div>
+        <hr>
+
+    </main>
+    <footer>
+
+        <div class="footer-content">
+
+            <ul>
+        <li><a href="../html/privacy.html">سياسة الخصوصية</a></li>
+        <li><a href="../html/terms.html">شروط الاستخدام</a></li>
+        <li><a href="../html/contact.html">اتصل بنا</a></li>
+            </ul>
+            <p>جميع الحقوق محفوظة &copy; 2023</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+        .videos {
+            position: relative;
+            display: ruby;
+
+
+        }
+
+        .videos_styles {
+            margin: 1%;
+            width: 20%;
+            height: 20%;
+        }
+
+        .videos_styles video {
+            width: 90%;
+            height: 90%;
+            margin-bottom: 2%;
+        }
+
+        .videos_styles p {
+            text-align: right;
+        }
+
+        .div_of_search input[type="text"],
+        button {
+            position: relative;
+            display: inline-flex;
+
+        }
+
+        .div_of_search input[type="text"] {
+            position: relative;
+            width: 30%;
+            height: 7%;
+            margin-top: 0%;
+            margin-right: 6%;
+            margin-bottom: 0;
+            margin-left: 20%;
+        }
+
+        button[type="submit"] {
+            position: relative;
+            width: 4%;
+            height: 6%;
+            background-color: blue;
+            margin-top: -3%;
+            margin-right: 2%;
+            margin-bottom: 0%;
+            margin-left: 94%;
+
+        }

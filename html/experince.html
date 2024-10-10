@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <div class="loginbox">
+            <hr>
+            <p class="pp"> مستخدم جديد</p>
+            <hr>
+
+            <br>
+
+            <form action="../phpCode/addLogin.php" method="post">
+
+                <div class="form-input">
+                    <table>
+                        <tbody>
+                <tr>
+                    <td><input type="text" placeholder=" إسم المستخدم " name="username" required> </td>
+                <td><input type="tel" placeholder=" رقم الجوال " name="phone"></td>
+                </tr>
+                <tr>
+                    <td><input type="email" placeholder="البريد الالكتروني" name="email"></td>
+                    <td><input type="email" placeholder=" تأكيد البريد الالكتروني" name="email2"> </td>
+                </tr>
+                <tr>
+                    <td><input type="password" placeholder=" كلمة السر" name="pass" required></td>
+                    <td><input type="password" placeholder=" تأكيد كلمة السر " name="pass2" required></td>
+                </tr>
+                    </tbody>
+                    </table>
+                <div class="im"> <button type="submit" name="save" class="hh2">اشتراك</button> </div><br>
+                <p><a href="new_user.html"> لدي حساب بالفعل</a></p>
+                </div>
+            </form>
+
+        </div>
+        <hr>
+
+    </main>
+
+</body>
+</html>

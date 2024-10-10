@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ede5e5;
+  direction: rtl;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  border: 2px solid #000;
+  border-radius: 25px;
+  background-color: #353a3a;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px double #fff;
+  border-radius: 10px;
+  background-color: #010101;
+}
+
+main  {
+  padding: 20px;
+
+}
+h1 {
+  font-size: 30px;
+  color: rgb(0, 217, 255);
+  text-align: center;
+
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+footer{
+  margin-top: 100px;
+  text-align: center;
+}
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+  }
+  #owners ul {
+    list-style-type: disc;
+  }
+  
+  #owners ul li {
+    margin-bottom: 5px;
+  }
+
+
+img{
+  height: 400px;
+  width: 300px;
+}
+
+
+
+  
+
+
+
+.team {
+  background: #fff;
+  padding: 60px 0;
+}
+
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #151515;
+  margin: 0 3px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.8);
+  transition: ease-in-out 0.3s;
+  color: #484848;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team .member .social a:hover {
+  color: #151515;
+  background: #ffc451;
+}
+
+.team .member .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.team .member .member-info {
+  padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #151515;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
+
+.team .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
+
+
+
+

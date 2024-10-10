@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles-index.css">
+    <link rel="stylesheet" href="../css/styles_add_cars.css">
+    <title>Document</title>
+    <style>
+            form{
+                direction: ltr;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>BAZO</h1>
+            <ul>
+                <li><a href="../index.html">الصفحة الرئيسية</a></li>
+                <li><a href="../phpCode/Cars.php">صفحات السيارات</a></li>
+                <li><a href="../phpCode/Search_cars.php">صفحة البحث</a></li>
+                <li><a href="../html/contact.html">صفحة الاتصال</a></li>
+                <li><a href="../html/login.html">صفحة تسجيل الدخول</a></li>
+                <li><a href="../html/owners.html">صفحة مالكين المعرض</a></li>
+                <li><a href="../html/Add_Cars.html">إضافة سيارة</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+
+        <div class="AddCar_Box">
+
+    <form action="../phpCode/Add_Cars.php" method="post" enctype="multipart/form-data">
+        Select Image of CAR BRAND:<input type="file" name="image"><br><br>
+
+        Select Image of CAR:<input type="file" name="car_image"><br><br>
+
+    CAR Name: <input type="text" name="car_name"><br>
+        Model:<input type="date" id="model" name="Car_Model"><br>
+
+
+        Choose Color:<input type="text" id="color_id" list="Colors" name="Color"> <!-- To Add Color of car -->
+        <datalist id="Colors">
+            <option value="أزرق">أزرق</option>
+            <option value="أسود">أسود</option>
+            <option value="رمادي">رمادي</option>
+            <option value="أحمر">أحمر</option>
+            <option value="أبيض">أبيض</option>
+            <option value="ذهبي">ذهبي</option>
+        </datalist>
+
+        <br>
+
+
+        Determine Capacity: <input type="number" name="Car_Capacity">
+
+        Determine fuel type: <select id="car_fuel" name="Car_Fuel_Type" size="0"><!-- To Add type of fuel -->
+            <option value="oil">oil</option>
+            <option value="diesel">diesel</option>
+            <option value="electricity">electricity</option>
+        </select>
+
+        <br>
+
+        Choose the car state:<select id="car_state" name="Car_Condition" size="0"><!-- To Add Condition of car -->
+            <option value="جديدة">جديدة</option>
+            <option value="مستخدمة">مستخدمة</option>
+            <option value="قديمة">قديمة</option>
+        </select>
+
+        Car Price: <input type="number" name="Car_Price"><br>
+        Compony Name:<input type="text" name="compony_name"><br>
+
+        <button type="submit" name="submit">Upload</button>
+    </form>
+        </div>
+
+        <br>
+
+    <footer>
+        <ul>
+            <li><a href="../html/privacy.html">سياسة الخصوصية</a></li>
+            <li><a href="../html/terms.html">شروط الاستخدام</a></li>
+            <li><a href="../html/contact.html">اتصل بنا</a></li>
+        </ul>
+        <p>جميع الحقوق محفوظة لدى الشركة &copy; 2023</p>
+    </footer>
+
+
+</body>
+</html>
